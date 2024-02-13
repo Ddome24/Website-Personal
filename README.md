@@ -1,2 +1,111 @@
-# website
-web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Royale Army</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif; /* Change to a different font */
+      margin: 0;
+      padding: 0;
+      background-color: #102a44; /* Slightly lighter blue background color */
+      color: #f0f6fc; /* Light text color */
+    }
+
+    header, .content, footer {
+      border: 2px solid #f0f6fc; /* Light border for visibility */
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px; /* Rounded corners for a modern look */
+    }
+
+    header {
+      background: linear-gradient(to bottom, #0a192f, #2d3e50, #0a192f); /* Gradient background with darker blue tones */
+      text-align: center;
+      padding: 20px;
+    }
+
+    .content {
+      float: left;
+      width: 97.1%;
+      background: #1f4068; /* Dark blue background color */
+      border-radius: 10px; /* Rounded corners for a modern look */
+    }
+
+    footer {
+      background-color: #102a44; /* Slightly lighter blue background color for footer */
+      text-align: center;
+      color: white; /* Red text color */
+      border-radius: 10px; /* Rounded corners for a modern look */
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #f0f6fc; /* Light border for table cells */
+      padding: 15px;
+      text-align: center;
+    }
+
+    th img, td img {
+      filter: brightness(80%) contrast(120%) grayscale(20%);
+      border-radius: 5px;
+    }
+
+    header th, header th {
+      color: #f0f6fc; /* Light text color */
+    }
+
+    th span {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  </style>
+</head>
+<body>
+ <audio autoplay loop>
+ <source src = "s.mp3" type="audio/mp3"/>
+ </audio>
+ 
+  <header>
+    <table>
+      <tr>
+        <th><img src="P.png" width="180" height="165"></th>
+        <th>
+          <span style="font-size: 40px;">POLTEKAD x UNIVERSITAS BRAWIJAYA</span><br>
+          <span style="font-size: 24px;">WINNER WINNER ENGLISH DINNER</span>
+        </th>
+        <th><img src="U.png" width="165" height="165"></th>
+      </tr>
+    </table>
+  </header>
+
+  <div class="content">
+    <table>
+      <tr>
+        <td>
+          <div class="main-content">
+            <iframe style="max-width:100%" src="https://wordwall.net/embed/43141c5fe78d4a4a887df1ab1a28580a?themeId=1&templateId=11&fontStackId=0" width="100%" height="380" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    <table>
+      <tr>
+        <th>&copy; copyright Syahrul Nur Fauzi</th>
+      </tr>
+    </table>
+  </footer>
+
+
+</body>
+</html>
